@@ -1,0 +1,11 @@
+create k
+read k
+insert k b
+insert k a
+insert k a
+read k
+read z
+insert z x
+delete z
+delete k
+read k
