@@ -1,0 +1,252 @@
+,,,,,,,,,Team member's % to task (final after task is done),,,,,,Est Start Date,Est end,Act Start Date,Act End Date,Est Start Day (Day=1 first day of lab),Est Duration,Actual Start Day (Day=1 first day of lab),Actual duration,,Important: tag/branch/file (how do we find this (these) file(s) in your repository and evaluature them if applicable). [req],Completed [req],Estimated Raw Score,INST/TA Completed,
+Task,Points Required,Points Optional,"Task Name (Only bold tasks are required, everything else is for extra points)",Description,Task Goal,Notes,,Lead,A,B,C,D,E,F,,,,,,,,,,,(1 or 0),,,
+Manager Tasks,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,5,,Communication,Establish a primary and backup methods of communication.,Each team member has redundant channels for the team.,,,Joy,,,,,,,10/13/2026,10/14/2026,10/13/2026,10/14/2026,366,1,366,1,,,1,5,0,0
+,5,,Version Control System,Create a common gitlab repository for the team and push the code.,"Each member can clone, push to, and pull from the repository. Verify this ASAP",,,Joy,,,,,,,10/13/2026,10/14/2026,10/13/2026,10/14/2026,366,1,366,1,,,1,5,0,0
+,5,,Configure IDE,Configure environment on everyone's system (vscode remote ssh to gpel machines).,Each member can clone/push/pull to the repository.,,,Joy,,,,,,,10/13/2026,10/14/2026,10/14/2026,10/31/2026,366,1,367,17,,,1,5,0,0
+,5,,Initial Build,Make sure that everyone can execute the code on their system.,Everyone can build and run the code,,,Joy,,,,,,,10/13/2026,10/14/2026,10/14/2026,11/1/2026,366,1,367,18,,,1,5,0,0
+,5,,Review Lab Document,"Identify the goals, tasks, and points of confusion in the document.",Generate questions for the instructor to clear ambiguity.,,,Joy,,,,,,,10/13/2026,10/14/2026,10/14/2026,10/14/2026,366,1,367,0,,,1,5,0,0
+,5,,Initial Statement of Work (wk 1),A living document assigning high-level tasks to the team,Brief description in repository README.md of who will work on what (high level). Include outside of class meeting times here.,,,Joy,,,,,,,10/13/2026,10/14/2026,10/14/2026,10/14/2026,366,1,367,0,,,1,5,0,0
+,5,,One page slide (wk 1),This slide will help guide discussion with TA/Instructor during in  class lab time.,"A brief slide with updates, questions, and changes.",,,Joy,,,,,,,10/13/2026,10/14/2026,10/14/2026,10/14/2026,366,1,367,0,,,1,5,0,0
+,5,,Tasksheet (wk 1),"Initial version of this sheet, with current attendance filled in.",A mapping of tasks to individuals,,,Joy,,,,,,,10/13/2026,10/14/2026,10/14/2026,10/14/2026,366,1,367,0,,,1,5,0,0
+,5,,One page slide (wk 2),This slide will help guide discussion with TA/Instructor during in  class lab time.,"A brief slide with updates, questions, and changes.",,,Joy,,,,,,,10/20/2026,10/21/2026,10/21/2026,10/21/2026,373,1,374,0,,,1,5,0,0
+,5,,Tasksheet (wk 2),"update version of this sheet, with current attendance filled in.",A mapping of tasks to individuals,,,Joy,,,,,,,10/20/2026,10/21/2026,10/21/2026,10/21/2026,373,1,374,0,,,1,5,0,0
+,5,,Update final statement of work,updated readme.md of SoW,,,,Joy,,,,,,,11/6/2026,11/9/2026,,,390,3,#NUM!,0,,,0,0,0,0
+,5,,Submit final codebase,git bundle of all branches tarballed and submitted to canvas,,,,Joy,,,,,,,11/6/2026,11/9/2026,,,390,3,#NUM!,0,,,0,0,0,0
+,5,,Submit final document,final document uploaded,,,,Joy,,,,,,,11/6/2026,11/9/2026,,,390,3,#NUM!,0,,,0,0,0,0
+,,5,submit additional material,"Notes, meeting minutes, and other additional artifacts that you believe will be useful for grading.",,,,Joy,,,,,,,11/6/2026,11/9/2026,,,390,3,#NUM!,0,,,0,0,0,0
+,5,,Submit final tasksheet,"The final version of this sheet, to be used by the TA/Instructor.",Completed tasksheet with claimed points validated.,,,Joy,,,,,,,11/6/2026,11/9/2026,,,390,3,#NUM!,0,,,0,0,0,0
+,5,,Submit team assessment,Post assessement of the team. Submitted the day after the other deliverables.,,,,Joy,,,,,,,11/11/2025,11/11/2025,,,30,0,#NUM!,0,,,0,0,0,0
+Task,Points Max,Points Awarded,Task Name,Description,Task Goal,Notes (please list filename where this is implemented ),,,,,,,,,,,,,,,,,,,,,,
+Tech Lead Tasks,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Draft of Technical Document,15,,Initial Outline (wk 1) ./lab/docs/outline.pdf,,,,,Levin,,,,,,,10/13/2026,10/14/2026,10/16/2026,10/18/2026,366,1,369,2,,,0,0,0,0
+,15,,Working Draft (wk 2) ./lab/docs/draft-1.pdf,,,,,Levin,,,,,,,10/20/2026,10/21/2026,10/19/2026,10/21/2026,373,1,372,2,,,0,0,0,0
+,15,,Working Draft (wk 3) ./lab/docs/draft-2.pdf,,,,,Levin,,,,,,,10/27/2026,10/28/2026,10/22/2026,11/3/2026,380,1,375,12,,,1,15,0,0
+,15,,Working Draft (wk 4) ./lab/docs/draft-3.pdf,,,,,Levin,,,,,,,11/7/2026,11/8/2026,11/4/2026,,391,1,388,#NUM!,,,0,0,0,0
+Devops,10,,./lab/run-all-tests.sh,Implement the very top level script to run all tests,,lab/run-all-tests.sh,,Levin,,,,,,,11/7/2026,11/8/2026,10/28/2026,11/2/2026,391,1,381,5,,,1,10,0,0
+,20,,.gitlab-ci.yml,Create a CI/CD pipeline that runs all tests every time code is pushed.,,.gitlab-ci.yml,,Levin,,,,,,,10/20/2026,10/22/2026,10/28/2026,11/2/2026,373,2,381,5,,,1,20,0,0
+,20,,deploy runners on OU resources,You will be given access to virtualized resources where you can deploy runners.,,lab/devops/register-ou-runner.sh,,Levin,,,,,,,10/27/2026,10/29/2026,10/28/2026,11/2/2026,380,2,381,5,,,1,20,0,0
+,20,,"Create automated tests (100% coverage, 0 leaks) for queue system",,,,,Levin,,,,,,,10/20/2026,10/29/2026,,,373,9,#NUM!,0,,,0,0,0,0
+,40,,"Create automated tests (100% coverage, 0 leaks) for initial stateful and stateless server functions",(+20) for each additional server function,,tests/test_examples.py,,Levin,,,,,,,10/20/2026,10/29/2026,,,373,9,#NUM!,0,,,0,0,0,0
+Communication,20,,Create protofile for queue to server function communication,https://grpc.io/docs/languages/python/quickstart/,,lab/proto/queue_to_server.proto,,Levin,,,,,,,10/20/2026,10/29/2026,10/28/2026,11/2/2026,373,9,381,5,,,1,20,0,0
+,20,,Create protofile for server function to queue communication,,,lab/proto/server_to_queue.proto,,Levin,,,,,,,10/20/2026,10/29/2026,10/28/2026,11/2/2026,373,9,381,5,,,1,20,0,0
+,20,,Create protofile for queue to queue communication,,,lab/proto/queue_to_queue.proto,,Levin,,,,,,,10/20/2026,10/29/2026,10/28/2026,11/2/2026,373,9,381,5,,,1,20,0,0
+Orchestration (repeatable for each application),20,,Create tool to convert configuration to orchestration script (repeatable for docker/compose/kubernetes),https://www.docker.com/blog/how-to-dockerize-your-python-applications/,,,,Levin,,,,,,,10/20/2026,10/29/2026,,,373,9,#NUM!,0,,,0,0,0,0
+,,,Dockerize the queue and server functions,https://www.docker.com/blog/how-to-dockerize-your-python-applications/,,,,Levin,,,,,,,10/20/2026,10/29/2026,,,,,,,,,,,,
+,30,,Docker Compose your application with server function and queues as separate containers that communicate with fifos as shared files,"https://windpoly.run/posts/docker-ipc-fifo/
+https://docs.docker.com/compose/gettingstarted/
+https://docs.docker.com/reference/compose-file/volumes/
+",,,,Levin,,,,,,,10/29/2026,11/5/2025,,,382,#NUM!,#NUM!,0,,,0,0,0,0
+,50,,Docker Compose your application with server function and queues as separate containers using grpc to communicate,https://github.com/flavienbwk/gRPC-Python-Docker-Example ,,,,Levin,,,,,,,10/29/2026,11/5/2025,,,382,#NUM!,#NUM!,0,,,0,0,0,0
+,60,,Convert you compose file into a kubernetes application using Kompose," https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/ 
+ https://kompose.io/getting-started/
+ ",,,,Levin,,,,,,,10/29/2026,11/5/2025,,,382,#NUM!,#NUM!,0,,,0,0,0,0
+,70,,refine your kubernetes application (What features of kubernetes can you leverage),https://kubernetes.io/docs/tutorials/kubernetes-basics/,,,,Levin,,,,,,,10/29/2026,11/5/2025,,,382,#NUM!,#NUM!,0,,,0,0,0,0
+Monitoring (Logs),20,,"Research various log stacks (ELK stack, Loki, etc.) for aggregating logs and determine what will be the best for your application",https://grafana.com/docs/loki/latest/,,,,Levin,,,,,,,10/29/2026,11/5/2025,10/28/2026,11/2/2026,382,#NUM!,381,5,,,1,20,0,0
+,50,,Deploy a logging stack for your application,"https://grafana.com/docs/loki/latest/get-started/quick-start/quick-start/
+https://grafana.com/docs/loki/latest/setup/install/docker/
+",,,,Levin,,,,,,,10/29/2026,11/5/2025,10/28/2026,11/2/2026,382,#NUM!,381,5,,,1,50,0,0
+Monitoring (Timeseries Metrics),,,"Research tools for monitoring and providing dashboards for USE metrics (grafana+prometheus), how would you collect metrics from your applications?","https://grafana.com/docs/loki/latest/get-started/quick-start/quick-start/
+https://grafana.com/docs/loki/latest/setup/install/docker/
+",,,,Levin,,,,,,,10/29/2026,11/5/2025,,,382,#NUM!,#NUM!,0,,,0,0,0,0
+,50,,Instrument your applications to collect and export the relavant metrics (see prometheus),"https://github.com/PylotStuff/python-prometheus-grafana
+https://web.archive.org/web/20220809170350/https://www.thepylot.dev/setup-grafana-with-prometheus-for-python-projects-docker-included/
+https://prometheus.github.io/client_python/instrumenting/",,,,Levin,,,,,,,10/29/2026,11/5/2025,,,382,#NUM!,#NUM!,0,,,0,0,0,0
+,50,,Deploy a dashboard displaying USE+Thr/Lat metrics for each relavant component of your application.,https://betterstack.com/community/guides/monitoring/red-use-metrics/,,,,Levin,,,,,,,10/29/2026,11/5/2025,,,382,#NUM!,#NUM!,0,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Key Value Store,50,,Add ability to load/store kv to disk --load-kv-from=filename.json --store-kv-to=filename.json,https://www.geeksforgeeks.org/system-design/database-sharding-a-system-design-concept/,,,,Levin,,,,,,,11/1/2025,11/8/2025,10/28/2026,11/2/2026,20,7,381,5,,,1,50,0,0
+,100,,sharding of the datastore over N instances (for any N>=2),https://www.geeksforgeeks.org/system-design/database-sharding-a-system-design-concept/,,,,Levin,,,,,,,11/1/2025,11/8/2025,10/28/2026,11/2/2026,20,7,381,5,,,1,100,0,0
+,100,,Replication  with 2 phase commit for M replicas (for any M>=2),https://en.wikipedia.org/wiki/Two-phase_commit_protocol,,,,Levin,,,,,,,11/1/2025,11/8/2025,10/28/2026,11/2/2026,20,7,381,5,,,1,100,0,0
+,150,,Combine sharding and replication (for N>=2 and M>=2),,,,,Levin,,,,,,,11/1/2025,11/8/2025,10/28/2026,11/2/2026,20,7,381,5,,,1,150,0,0
+,200,,Perform USE+Thr&Lat analysis for various configuration of N and M,,,,,Levin,,,,,,,11/1/2025,11/8/2025,10/28/2026,11/2/2026,20,7,381,5,,,1,200,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Performance,50,,Port queue to C++ (gRPC),,,,,Levin,,,,,,,11/1/2025,11/8/2025,,,20,7,#NUM!,0,,,0,0,0,0
+,50,,Stateful Function: port K-V to C++ (gRPC),,,,,Levin,,,,,,,11/1/2025,11/8/2025,,,20,7,#NUM!,0,,,0,0,0,0
+,50,,Stateless Function: Port an example stateless to C++ (gRPC),,,,,Levin,,,,,,,11/1/2025,11/8/2025,,,20,7,#NUM!,0,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Task,Points Max,Points Awarded,Task Name,Description,Task Goal,Notes (please list filename where this is implemented ),,,,,,,,,,,,,,,,,,,,,,
+Teams tasks to be delegated by manager.,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Obj A: validate against previous lab,10,,Create working implementation ./implementation/obj-a/workload-generator,"Generator will take as input a distribution, statistics, and produce a synthetic workload. If given it is not given interval, it should continue to generate data until halted. The tasks should be a list of wait times.",,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,30,,Implement Logging and Metrics tracking to queue and state/stateful examples,These need to mirror the metrics and events from the previous lab,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/filter-by-queue,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/filter-by-job,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/compute-use,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/plot-use,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/derive-sys-metrics,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/plot-sys-metrics/,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/derive-event-metrics/,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/plot-derive-event-metrics,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./implementation/obj-a/create-event-trace,,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,10,,Create working implementation ./Implementation/obj-a/pretty-print-job-trace,https://blog.josejg.com/debugging-pretty/,,,,,,,,,,,10/22/2026,10/27/2026,10/30/2026,,375,5,383,#NUM!,,,0,0,0,0
+,20,,"(Small) Identify, Model, and Analyze a system of 2-10 queues (See slides for ""Single Queue Modelling and Analysis"") Answer the questions and provide supporting plots. Make sure to demonstrate all the accessory analysis and plotting tools. Include all artifacts and notes in ./analysis/simple/",,,,,,,,,,,,10/27/2026,11/1/2026,10/30/2026,,380,5,383,#NUM!,,,0,0,0,0
+,20,,"(Small) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,,,,,,,,10/27/2026,11/1/2026,10/30/2026,,380,5,383,#NUM!,,,0,0,0,0
+,30,,"(Medium) Identify, Model, and Analyze a system of 10-100 queues """"",,,,,,,,,,,,10/27/2026,11/1/2026,10/30/2026,,380,5,383,#NUM!,,,0,0,0,0
+,30,,"(Medium) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,,,,,,,,10/27/2026,11/1/2026,10/30/2026,,380,5,383,#NUM!,,,0,0,0,0
+,50,,"(Large) Identify, Model, and Analyze a system of 100-1000 queues """"",,,,,,,,,,,,10/27/2026,11/1/2026,10/30/2026,,380,5,383,#NUM!,,,0,0,0,0
+,50,,"(Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,,,,,,,,10/27/2026,11/1/2026,10/30/2026,,380,5,383,#NUM!,,,0,0,0,0
+,70,,"(Very Large) Identify, Model, and Analyze a system of 1000-10000 queues """"",,,,,,,,,,,,10/27/2026,11/1/2026,10/30/2026,,380,5,383,#NUM!,,,0,0,0,0
+,70,,"(Very Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Non-tech,,,,,,,10/27/2026,11/1/2026,10/30/2026,,380,5,383,#NUM!,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Obj B.1: Applications (every member does at least 1 application),10,,Identify and summarize the problem. How do you map this as a queueing problem? How would we interpret the metrics? What is it that we are trying to optimize for?,,,,,Joy,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Detail and diagram your architecture.,,,,,Joy,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Create a specialized workload generator ./implementation/obj-b.XX/workload-generator (what were the decision you made for the distribution of arrival times? tasks? etc.),,,,,Joy,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Implement new server functions to fit this problem. These can be complex and should be monolithic.,,,,,Joy,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Decompose the complex server functions into many smaller ones.,,,,,Joy,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,Port server functions to C++ (gRPC),,,,,Joy,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Identify, Model, and Analyze a system of 2-10 queues (See slides for ""Single Queue Modelling and Analysis"") Answer the questions and provide supporting plots. Make sure to demonstrate all the accessory analysis and plotting tools. Include all artifacts and notes in ./analysis/simple/",,,,,Joy,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Joy,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Identify, Model, and Analyze a system of 10-100 queues """"",,,,,Joy,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Joy,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Identify, Model, and Analyze a system of 100-1000 queues """"",,,,,Joy,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Joy,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Identify, Model, and Analyze a system of 1000-10000 queues """"",,,,,Joy,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Joy,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Obj B.2,,,Repeat Obj B for a new application,,,,,,,,,,,,,,,,,,,,,,,,,
+,10,,Identify and summarize the problem. How do you map this as a queueing problem? How would we interpret the metrics? What is it that we are trying to optimize for?,,,,,Isbell,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Detail and diagram your architecture.,,,,,Isbell,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Create a specialized workload generator ./implementation/obj-b.XX/workload-generator (what were the decision you made for the distribution of arrival times? tasks? etc.),,,,,Isbell,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Implement new server functions to fit this problem. These can be complex and should be monolithic.,,,,,Isbell,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Decompose the complex server functions into many smaller ones.,,,,,Isbell,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,Port server functions to C++ (gRPC),,,,,Isbell,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Identify, Model, and Analyze a system of 2-10 queues (See slides for ""Single Queue Modelling and Analysis"") Answer the questions and provide supporting plots. Make sure to demonstrate all the accessory analysis and plotting tools. Include all artifacts and notes in ./analysis/simple/",,,,,Isbell,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Isbell,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Identify, Model, and Analyze a system of 10-100 queues """"",,,,,Isbell,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Isbell,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Identify, Model, and Analyze a system of 100-1000 queues """"",,,,,Isbell,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Isbell,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Identify, Model, and Analyze a system of 1000-10000 queues """"",,,,,Isbell,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Isbell,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Obj B.3,,,Repeat Obj B for a new application,,,,,,,,,,,,,,,,,,,,,,,,,
+,10,,Identify and summarize the problem. How do you map this as a queueing problem? How would we interpret the metrics? What is it that we are trying to optimize for?,,,,,Luc,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Detail and diagram your architecture.,,,,,Luc,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Create a specialized workload generator ./implementation/obj-b.XX/workload-generator (what were the decision you made for the distribution of arrival times? tasks? etc.),,,,,Luc,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Implement new server functions to fit this problem. These can be complex and should be monolithic.,,,,,Luc,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Decompose the complex server functions into many smaller ones.,,,,,Luc,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,Port server functions to C++ (gRPC),,,,,Luc,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Identify, Model, and Analyze a system of 2-10 queues (See slides for ""Single Queue Modelling and Analysis"") Answer the questions and provide supporting plots. Make sure to demonstrate all the accessory analysis and plotting tools. Include all artifacts and notes in ./analysis/simple/",,,,,Luc,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Luc,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Identify, Model, and Analyze a system of 10-100 queues """"",,,,,Luc,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Luc,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Identify, Model, and Analyze a system of 100-1000 queues """"",,,,,Luc,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Luc,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Identify, Model, and Analyze a system of 1000-10000 queues """"",,,,,Luc,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Luc,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Obj B.4,,,Repeat Obj B for a new application,,,,,,,,,,,,,,,,,,,,,,,,,
+,10,,Identify and summarize the problem. How do you map this as a queueing problem? How would we interpret the metrics? What is it that we are trying to optimize for?,,,,,Zoe,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Detail and diagram your architecture.,,,,,Zoe,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Create a specialized workload generator ./implementation/obj-b.XX/workload-generator (what were the decision you made for the distribution of arrival times? tasks? etc.),,,,,Zoe,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Implement new server functions to fit this problem. These can be complex and should be monolithic.,,,,,Zoe,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Decompose the complex server functions into many smaller ones.,,,,,Zoe,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,Port server functions to C++ (gRPC),,,,,Zoe,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Identify, Model, and Analyze a system of 2-10 queues (See slides for ""Single Queue Modelling and Analysis"") Answer the questions and provide supporting plots. Make sure to demonstrate all the accessory analysis and plotting tools. Include all artifacts and notes in ./analysis/simple/",,,,,Zoe,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Zoe,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Identify, Model, and Analyze a system of 10-100 queues """"",,,,,Zoe,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Zoe,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Identify, Model, and Analyze a system of 100-1000 queues """"",,,,,Zoe,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Zoe,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Identify, Model, and Analyze a system of 1000-10000 queues """"",,,,,Zoe,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Zoe,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Obj B.5,,,Repeat Obj B for a new application,,,,,,,,,,,,,,,,,,,,,,,,,
+,10,,Identify and summarize the problem. How do you map this as a queueing problem? How would we interpret the metrics? What is it that we are trying to optimize for?,,,,,Levin,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Detail and diagram your architecture.,,,,,Levin,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Create a specialized workload generator ./implementation/obj-b.XX/workload-generator (what were the decision you made for the distribution of arrival times? tasks? etc.),,,,,Levin,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Implement new server functions to fit this problem. These can be complex and should be monolithic.,,,,,Levin,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,10,,Decompose the complex server functions into many smaller ones.,,,,,Levin,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,Port server functions to C++ (gRPC),,,,,Levin,,,,,,,10/27/2026,11/1/2026,,,380,5,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Identify, Model, and Analyze a system of 2-10 queues (See slides for ""Single Queue Modelling and Analysis"") Answer the questions and provide supporting plots. Make sure to demonstrate all the accessory analysis and plotting tools. Include all artifacts and notes in ./analysis/simple/",,,,,Levin,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,20,,"(Small) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Levin,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Identify, Model, and Analyze a system of 10-100 queues """"",,,,,Levin,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,30,,"(Medium) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Levin,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Identify, Model, and Analyze a system of 100-1000 queues """"",,,,,Levin,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,50,,"(Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Levin,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Identify, Model, and Analyze a system of 1000-10000 queues """"",,,,,Levin,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,70,,"(Very Large) Collect and plot main metrics (USE+Thr&Lat, Event traces for longest jobs, 6 plots total per set) for the baseline and  each sensitivity analysis (7 sets)",,,,,Levin,,,,,,,11/1/2026,11/7/2026,,,385,6,#NUM!,0,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Obj C.1: Repeat of Obj B (Alternatively, repeating the tech lead activities for orchestration and monitoring would replace this)",410,,"""""",,,,,,,,,,,,10/27/2026,11/7/2026,,,380,11,#NUM!,0,,,0,0,0,0
+Obj C.2,410,,"""""",,,,,,,,,,,,10/27/2026,11/7/2026,,,380,11,#NUM!,0,,,0,0,0,0
+Obj C.3,410,,"""""",,,,,,,,,,,,10/27/2026,11/7/2026,,,380,11,#NUM!,0,,,0,0,0,0
+Obj C.4,410,,"""""",,,,,,,,,,,,10/27/2026,11/7/2026,,,380,11,#NUM!,0,,,0,0,0,0
+Obj C.5,410,,"""""",,,,,,,,,,,,10/27/2026,11/7/2026,,,380,11,#NUM!,0,,,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,"NOTE: Managers if you need to add more rows for substantial variants then do so. If you are uncertain, then ask. Additionally, if a task is attempted but it does not pass the unit tests or verifier, then you can collect the points for the ""implement"" task, but no points for the verification or plots.",,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Part 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Final Writeup,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,LaTeX document built from the working technical document that conveys the problems you solved and how.,writeup.pdf,,,,,,,,,,,,,,,,,,,,,,,
+Writeup ./lab/docs/final-report.pdf,20,,Section: Introduction,,,,,,,,,,,,10/21/2026,11/8/2026,,,374,18,#NUM!,0,,,0,0,0,0
+,20,,Section: Theory & Mechanism,,,,,,,,,,,,11/8/2026,11/8/2026,,,392,0,#NUM!,0,,,0,0,0,0
+,100,,Section: Analysis of the Key-Value (KV) store,,,,,,,,,,,,11/8/2026,11/8/2026,,,392,0,#NUM!,0,,,0,0,0,0
+,200,,"Section: Analysis and Results for Obj-A, Obj-B.X and Obj-C.x (if applicable)",,,,,,,,,,,,11/8/2026,11/8/2026,,,392,0,#NUM!,0,,,,,,
+,20,,Section: Summary,,,,,,,,,,,,11/8/2026,11/8/2026,,,392,0,#NUM!,0,,,,,,
+Poster Presentation,200,,Analysis of one of your implementations (Obj-B.X or Obj-C.x),,,,,,,,,,,,11/8/2026,11/9/2026,,,392,1,#NUM!,0,,,,,,
+,100,,Live demo of your implementation,,,,,,,,,,,,11/9/2026,11/9/2026,,,393,0,#NUM!,0,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Required Points:,6695,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Available,6700,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estimated Raw Points,845,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TA/Instructor Raw Points,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
